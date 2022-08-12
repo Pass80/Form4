@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 30%;
+    margin: 10rem auto;
+    border: 2px rgb(222, 220, 220) solid;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(218, 216, 216);
+}
+
+.heading {
+    background-color: rgb(35, 96, 96);
+    color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    border-radius: 0.9rem 0.9rem 0 0;
+    border-color: rgb(35, 96, 96);
+}
+
+.content {
+    padding: 1rem;
+}
+
+ol li {
+    position: relative;
+    list-style-type: none;
+    color: rgb(35, 96, 96);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ol li p {
+    position: absolute;
+    margin-left: -1.5rem;
+    width: 1.35rem;
+    color: #fff;
+    background-color: rgb(35, 96, 96);
+    border-radius: 100%;
+    text-align: center;
+}
+
+form {
+    background-color: rgb(248, 243, 243);
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    padding-bottom: 2rem;
+}
+
+input {
+    padding: 0 0.4rem;
+}
+
+form input,
+form label,
+form textarea {
+    display: block;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    margin: 0.2rem auto;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 0 -1px 1px gray;
+}
+
+form label {
+    width: 90%;
+    margin: 0.2rem auto;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div input {
+    margin-right: 0.3rem;
+}
+
+.footer div {
+    margin-top: 0.3rem;
+}
+
+.button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: #fff;
+    background-color: rgb(35, 96, 96);
+}
